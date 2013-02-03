@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+@import url(http://fonts.googleapis.com/css?family=Offside|Roboto+Condensed);
+html,body { 
+	background: url(bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	color:#fff;
+	text-shadow: 1px 1px 1px #000000;
+	filter: dropshadow(color=#000000, offx=1, offy=1);
+	text-align:center;
+
+}
+.navbar-inner {
+	   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		    font-weight: 700;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  border-radius: none;
+	-webkit-box-shadow:  0px 6px 10px 0px rgba(0, 0, 0, 0.5);
+	box-shadow:  0px 6px 10px 0px rgba(0, 0, 0, 0.5);
+	border: 1px solid #d4d4d4;
+}
+
+.navbar{
+	position:fixed;
+	width:100%;
+}
+.navbar .nav{
+	margin-top:25px;
+	font-size:200%;
+}
+
+.navbar-inner li{
+	padding:10px 10px 10px 10px
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+	color: #000;
+	text-decoration: none;
+	background-color: #fff !important;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+#home {
+
+	padding:310px 0 310px 0;
+
+}
+#home h1{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:510%;
+	padding:30px 0px;
+	color:#FFF;
+	line-height:80px;
+
+}
+#home h3{
+	font-size:300%;
+	line-height:80px;
+	color: #D3D3D3;
+	font-family: 'Roboto Condensed', sans-serif !important;
+
+}
+#about {
+font-family: 'Titillium Web', sans-serif;
+	text-shadow: none;
+	color:#000;
+	background-color:#fff;
+	padding:300px 0 300px 0;
+
+}
+#contact {
+	font-family: 'Titillium Web', sans-serif;
+	background-color:#111;
+
+	padding:300px 0 300px 0;
+
+}
+
+
+
+
+footer {
+	background-color: #000;
+
+
+}
+h1 { 
+	color: white; 
+	font: bold 24px/45px Helvetica, Sans-Serif; 
+	letter-spacing: -1px;  
+	background: rgb(0, 0, 0); /* fallback color */
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px; 
+}
+h3 { 
+	color: white; 
+	font: bold 24px/45px Helvetica, Sans-Serif; 
+	letter-spacing: -1px;  
+	background: rgb(0, 0, 0); /* fallback color */
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px; 
+}
+
+#about h2{
+	text-align:justify;
+	text-justify:inter-word;
+	padding:10px 150px;
+
+}
